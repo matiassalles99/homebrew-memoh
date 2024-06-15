@@ -9,7 +9,6 @@ class Memoh < Formula
   depends_on "ruby"
 
   def install
-    system "gem", "install", "memoh"
-    bin.install Dir["#{HOMEBREW_PREFIX}/lib/ruby/gems/*/gems/memoh/exe/memoh"]
+    system "gem", "install", "memoh-1.0.gem", "--install-dir", libexec, "--bindir", bin
   end
 end
