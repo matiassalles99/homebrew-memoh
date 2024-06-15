@@ -1,4 +1,4 @@
-class MyCli < Formula
+class Memoh < Formula
   desc "Save your SSH connection details with memoh"
   homepage "https://github.com/matiassalles99/memoh"
   url "https://rubygems.org/gems/memoh"
