@@ -4,6 +4,7 @@ class Memoh < Formula
   url "https://rubygems.org/gems/memoh"
   sha256 "9c406e8cb0e69f535b59a28f2031330b44b989239015c2c804df1297caaed461"
   license "MIT"
+  version "1.0"
 
   depends_on "ruby"
 
